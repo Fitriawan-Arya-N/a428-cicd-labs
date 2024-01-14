@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import linkedinLogo from './linkedin-logo.png';
+import githubLogo from './github-logo.png';
 import './App.css';
 
 class App extends Component {
@@ -7,22 +8,27 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          {/* Assuming you have a logo for your site */}
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Fitriawan Arya Nugraha</h1>
         </header>
         <div className="App-body">
-          <p className="App-intro">
-            Welcome to my web profile. To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
           <section className="App-connect">
-            <h2>Let's Connect</h2>
+            <h2>Welcome to my web. Let's Connect!</h2>
             <p>
-              You can connect with me on the following platforms:
+              Reach me on the following platforms:
             </p>
             <ul>
-              <li><a href="https://www.linkedin.com/in/fitriawanaryanugraha/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://github.com/fitriawanaryanugraha" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-              {/* Add more links as needed */}
+              <li>
+                <a href="https://id.linkedin.com/in/fitriawan-arya-nugraha-a2b172220" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" alt="LinkedIn Logo" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Fitriawan-Arya-N" target="_blank" rel="noopener noreferrer">
+                  <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" />
+                </a>
+              </li>
             </ul>
           </section>
         </div>
