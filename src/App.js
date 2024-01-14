@@ -10,6 +10,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Hello, I am Fitriawan Arya Nugraha</h1>
         </header>
+
         <div className="App-body">
           <section className="App-connect">
             <div className="avatar-container">
@@ -20,12 +21,12 @@ class App extends Component {
             <ul>
               <li>
                 <a href="https://id.linkedin.com/in/fitriawan-arya-nugraha-a2b172220" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" alt="LinkedIn Logo" />
+                  <img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" alt="LinkedIn Logo" className='logo' />
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Fitriawan-Arya-N" target="_blank" rel="noopener noreferrer">
-                  <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" />
+                  <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" className='logo' />
                 </a>
               </li>
             </ul>
