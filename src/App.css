@@ -65,5 +65,6 @@ body {
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
   align-items: center;
+  scale: 0.5;
 }
 
