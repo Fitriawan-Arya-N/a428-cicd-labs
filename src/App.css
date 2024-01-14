@@ -1,20 +1,15 @@
-
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 100px;
-  width: 100px;
-}
-
 .App-header {
+  background-color: #282c34;
   padding: 20px;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .App-body {
@@ -22,11 +17,21 @@
 }
 
 .App-connect {
-  text-align: left;
+  text-align: center;
+}
+
+.avatar-container {
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .App-connect h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #333;
 }
 
@@ -38,26 +43,25 @@
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-connect li {
-  margin: 0;
+  margin: 10px 0;
 }
 
 .App-connect a {
   text-decoration: none;
 }
 
-
 .App-connect img {
-  width: 50px; 
+  width: 50px;
   height: 50px;
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
 }
 
 .App-connect img:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
