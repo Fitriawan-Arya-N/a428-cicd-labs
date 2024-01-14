@@ -29,8 +29,8 @@ body {
 }
 
 .avatar {
-  width: 1000px;
-  height: 1000px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
 }
 
@@ -64,6 +64,7 @@ body {
   height: 50px;
   border-radius: 50%;
   transition: transform 0.3s ease-in-out;
+  text-align: center;
 }
 
 .App-connect img:hover {
