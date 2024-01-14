@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import linkedinLogo from './linkedin-logo.png';
-import githubLogo from './github-logo.png';
 import './App.css';
 
 class App extends Component {
